@@ -1,0 +1,68 @@
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 316 password hashes with 316 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:00:00:00 Command line: /home/ubuntu/src/john/run/john --wordlist=../Wordlists/fiveletter.txt --session=pbk256-5lwl --pot=pbk256-5lwl sha256.hashes 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256 (min-len 0, max-len 41 [worst case UTF-8] to 125 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 256/256 AVX2 8x
+0:00:00:00 - Will reject candidates longer than 125 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 128
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: ../Wordlists/fiveletter.txt
+0:00:00:00 - memory mapping wordlist (960000 bytes)
+0:00:00:00 - No word mangling rules
+0:00:03:24 + Cracked ?
+0:00:11:01 + Cracked ?
+0:00:13:22 + Cracked ?
+0:00:13:41 + Cracked ?
+0:00:22:17 + Cracked ?
+0:00:36:08 + Cracked ?
+0:00:36:30 + Cracked ?
+0:00:39:03 + Cracked ?
+0:00:47:37 + Cracked ?
+0:00:48:23 + Cracked ?
+0:00:51:29 + Cracked ?
+0:00:54:55 + Cracked ?
+0:00:55:33 + Cracked ?
+0:01:00:17 + Cracked ?
+0:01:04:50 + Cracked ?
+0:01:05:26 + Cracked ?
+0:01:11:15 + Cracked ?
+0:01:12:45 + Cracked ?
+0:01:14:40 + Cracked ?
+0:01:15:39 + Cracked ?
+0:01:16:02 + Cracked ?
+0:01:28:26 + Cracked ?
+0:01:29:50 + Cracked ?
+0:01:32:31 + Cracked ?
+0:01:40:26 + Cracked ?
+0:01:42:13 + Cracked ?
+0:01:47:36 + Cracked ?
+0:01:48:21 + Cracked ?
+0:01:50:23 + Cracked ?
+0:01:52:16 + Cracked ?
+0:01:56:44 + Cracked ?
+0:02:14:00 + Cracked ?
+0:02:16:56 + Cracked ?
+0:02:21:21 + Cracked ?
+0:02:25:15 + Cracked ?
+0:02:31:56 + Cracked ?
+0:02:32:33 + Cracked ?
+0:02:33:33 + Cracked ?
+0:02:35:57 + Cracked ?
+0:02:49:46 + Cracked ?
+0:02:57:06 + Cracked ?
+0:03:04:01 + Cracked ?
+0:03:07:48 + Cracked ?
+0:03:12:13 + Cracked ?
+0:03:14:57 + Cracked ?
+0:03:27:13 + Cracked ?
+0:03:39:33 + Cracked ?
+0:03:39:55 + Cracked ?
+0:03:43:13 + Cracked ?
+0:03:47:56 + Cracked ?
+0:03:56:22 + Cracked ?
+0:03:58:37 Session aborted

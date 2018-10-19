@@ -1,0 +1,133 @@
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 316 password hashes with 316 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:00:00:00 Command line: /home/ubuntu/src/john/run/john --wordlist=../Wordlists/fiveletters2.txt --session=pbk2565l --pot=pbk2565l.pot sha256.hashes 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256 (min-len 0, max-len 41 [worst case UTF-8] to 125 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 256/256 AVX2 8x
+0:00:00:00 - Will reject candidates longer than 125 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 128
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 Terminating on error, wordlist.c:690
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 316 password hashes with 316 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:00:00:00 Command line: /home/ubuntu/src/john/run/john --wordlist=../Wordlists/fiveletter2.txt --session=pbk2565l --pot=pbk2565l.pot --format=PBKDF2-HMAC-SHA256-opencl sha256.hashes 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Device 0: Tesla K80
+0:00:00:00 - OpenCL LWS: 256, GWS: 9984 (both auto-tuned) (39 blocks)
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256-opencl (min-len 0, max-len 18 [worst case UTF-8] to 55 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 OpenCL
+0:00:00:00 - Will reject candidates longer than 55 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 9984
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: ../Wordlists/fiveletter2.txt
+0:00:00:00 - memory mapping wordlist (6000000 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:01 + Cracked ?
+0:00:00:04 GPU 0 probably invalid temp reading (-1°C).
+0:00:00:22 + Cracked ?
+0:00:00:25 + Cracked ?
+0:00:00:29 + Cracked ?
+0:00:00:36 + Cracked ?
+0:00:00:39 + Cracked ?
+0:00:00:40 + Cracked ?
+0:00:00:44 + Cracked ?
+0:00:00:47 + Cracked ?
+0:00:01:08 + Cracked ?
+0:00:01:17 + Cracked ?
+0:00:01:23 + Cracked ?
+0:00:01:28 + Cracked ?
+0:00:01:32 + Cracked ?
+0:00:01:37 + Cracked ?
+0:00:01:50 + Cracked ?
+0:00:02:16 + Cracked ?
+0:00:02:22 + Cracked ?
+0:00:02:40 + Cracked ?
+0:00:02:57 + Cracked ?
+0:00:02:59 + Cracked ?
+0:00:03:05 + Cracked ?
+0:00:03:26 + Cracked ?
+0:00:03:27 + Cracked ?
+0:00:03:35 + Cracked ?
+0:00:03:39 + Cracked ?
+0:00:03:47 + Cracked ?
+0:00:03:56 + Cracked ?
+0:00:04:31 + Cracked ?
+0:00:05:32 + Cracked ?
+0:00:05:50 + Cracked ?
+0:00:05:54 + Cracked ?
+0:00:06:06 + Cracked ?
+0:00:06:28 + Cracked ?
+0:00:06:36 + Cracked ?
+0:00:06:55 + Cracked ?
+0:00:06:57 + Cracked ?
+0:00:06:59 + Cracked ?
+0:00:13:06 + Cracked ?
+0:00:16:36 + Cracked ?
+0:00:16:42 + Cracked ?
+0:00:17:44 + Cracked ?
+0:00:18:07 + Cracked ?
+0:00:18:24 + Cracked ?
+0:00:25:25 + Cracked ?
+0:00:26:27 + Cracked ?
+0:00:31:48 + Cracked ?
+0:00:33:20 + Cracked ?
+0:00:43:34 + Cracked ?
+0:00:44:37 + Cracked ?
+0:00:46:02 + Cracked ?
+0:00:47:53 + Cracked ?
+0:00:48:46 + Cracked ?
+0:00:49:54 + Cracked ?
+0:00:52:05 + Cracked ?
+0:00:57:25 + Cracked ?
+0:01:00:59 + Cracked ?
+0:01:02:43 + Cracked ?
+0:01:06:27 + Cracked ?
+0:01:06:36 + Cracked ?
+0:01:06:43 + Cracked ?
+0:01:08:18 + Cracked ?
+0:01:12:22 + Cracked ?
+0:01:13:51 + Cracked ?
+0:01:13:52 + Cracked ?
+0:01:14:34 + Cracked ?
+0:01:16:08 + Cracked ?
+0:01:17:26 + Cracked ?
+0:01:18:01 + Cracked ?
+0:01:22:26 + Cracked ?
+0:01:22:51 + Cracked ?
+0:01:23:51 + Cracked ?
+0:01:24:45 + Cracked ?
+0:01:26:56 + Cracked ?
+0:01:27:26 + Cracked ?
+0:01:27:33 + Cracked ?
+0:01:37:42 + Cracked ?
+0:01:37:47 + Cracked ?
+0:01:37:52 + Cracked ?
+0:01:47:26 + Cracked ?
+0:01:49:47 + Cracked ?
+0:01:51:16 + Cracked ?
+0:01:53:31 + Cracked ?
+0:02:03:30 + Cracked ?
+0:02:18:25 + Cracked ?
+0:02:24:24 + Cracked ?
+0:02:28:14 + Cracked ?
+0:02:36:00 + Cracked ?
+0:02:36:34 + Cracked ?
+0:02:46:05 + Cracked ?
+0:02:47:14 + Cracked ?
+0:02:48:21 + Cracked ?
+0:03:03:55 + Cracked ?
+0:03:23:54 + Cracked ?
+0:03:42:15 + Cracked ?
+0:03:42:21 + Cracked ?
+0:03:50:08 + Cracked ?
+0:05:47:14 + Cracked ?
+0:07:06:27 + Cracked ?
+0:07:12:32 Session completed

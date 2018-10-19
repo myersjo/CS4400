@@ -1,0 +1,34 @@
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 316 password hashes with 316 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:00:00:00 Command line: /home/ubuntu/src/john/run/john --wordlist ../Wordlists/fiveletter.txt --session=pbk256 sha256.hashes 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256 (min-len 0, max-len 41 [worst case UTF-8] to 125 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 256/256 AVX2 8x
+0:00:00:00 - Will reject candidates longer than 125 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 128
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: /home/ubuntu/src/john/run/password.lst
+0:00:00:00 - memory mapping wordlist (26325 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:21 Session aborted
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 316 password hashes with 316 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Cost 1 (iteration count) is 29000 for all loaded hashes
+0:00:00:00 Command line: /home/ubuntu/src/john/run/john --wordlist ../Wordlists/fiveletter.txt --session=pbk256 sha256.hashes 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - Hash type: PBKDF2-HMAC-SHA256 (min-len 0, max-len 41 [worst case UTF-8] to 125 [ASCII])
+0:00:00:00 - Algorithm: PBKDF2-SHA256 256/256 AVX2 8x
+0:00:00:00 - Will reject candidates longer than 125 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 128
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: /home/ubuntu/src/john/run/password.lst
+0:00:00:00 - memory mapping wordlist (26325 bytes)
+0:00:00:00 - No word mangling rules
+0:00:56:19 Session completed

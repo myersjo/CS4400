@@ -1,0 +1,33 @@
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 302 password hashes with 302 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Cost 1 (t) is 2 for all loaded hashes
+0:00:00:00 Cost 2 (m) is 102400 for all loaded hashes
+0:00:00:00 Cost 3 (p) is 8 for all loaded hashes
+0:00:00:00 Cost 4 (type [0:Argon2d 1:Argon2i]) is 1 for all loaded hashes
+0:00:00:00 Command line: /home/ubuntu/src/john/run/john --wordlist=../Wordlists/fiveletter.txt --session=argon --pot=argon.pot argon2i.hashes 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 - Hash type: argon2 (min-len 0, max-len 33 [worst case UTF-8] to 100 [ASCII])
+0:00:00:00 - Algorithm: Blake2 AVX
+0:00:00:00 - Will reject candidates longer than 100 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 64
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: ../Wordlists/fiveletter.txt
+0:00:00:00 - memory mapping wordlist (960000 bytes)
+0:00:00:00 - No word mangling rules
+0:00:01:02 + Cracked ?
+0:00:31:40 + Cracked ?
+0:01:13:36 + Cracked ?
+0:03:56:51 + Cracked ?
+0:04:59:06 + Cracked ?
+0:08:11:34 + Cracked ?
+0:08:12:11 + Cracked ?
+0:10:15:44 + Cracked ?
+0:10:30:08 + Cracked ?
+0:12:40:01 + Cracked ?
+0:12:46:59 + Cracked ?
+0:13:24:35 + Cracked ?
+0:13:49:14 + Cracked ?
+0:16:43:42 Session aborted
